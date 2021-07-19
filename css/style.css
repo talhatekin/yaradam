@@ -184,6 +184,10 @@ table, th, td{
     font-size: 20px;
     margin-top: 2px;
   }
+  table{
+    margin-top: 300px !important;
+    border-top: 1px solid rgba(122, 6, 122, 0.1);
+  }
 }
 @media screen and (max-width: 400px) {
   #header{
