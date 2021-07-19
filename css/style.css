@@ -158,8 +158,12 @@ table, th, td{
 
 
 @media screen and (max-width: 600px) {
-  html {
-    font-size: 10px;
+  
+  #calismaSaat{
+    width: 100%;
+  }
+  #profil{
+    width: 100%;
   }
   nav {
     display: none;
@@ -173,11 +177,11 @@ table, th, td{
     margin-top: -50px;
   }
   .sosyalMedya {
-    width: 16px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
   }
   .isim {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 2px;
   }
 }
@@ -191,12 +195,8 @@ table, th, td{
     margin-top: -40px;
     margin-left: 20px;
   }
-  #calismaSaat{
-    width: 100%;
-  }
-  #profil{
-    width: 100%;
-  }
+ 
+  
   .dropbtn{
     padding: 30px;
     margin-top: 5px;
