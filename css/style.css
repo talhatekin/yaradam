@@ -79,6 +79,7 @@ ul#ulTopLeft li a:hover {
   border: 1px solid rgb(0, 0, 0, 0.1);
   border-radius: 3px;
   border-top: none;
+  border-left: none;
   float: left;
 }
 #profil * {
@@ -99,13 +100,21 @@ ul#ulTopLeft li a:hover {
 
 table {
   height: 100%;
-  width: 49%;
+  width: 49.881%;
   margin: auto;
   border: 1px solid rgba(122, 6, 122, 0.1);
-
+  border-left: none;
   border-top: none;
   padding: 10px;
+  font-family: "Metropolis", sans-serif;
 }
+table, th, td{
+  color: black;
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+}
+
 .dropdown {
   display: none;
   float: right;
